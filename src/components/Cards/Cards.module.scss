@@ -1,27 +1,31 @@
-.cards{
-    border-radius: 2rem;
-    overflow: hidden;
-    color: aliceblue;
-    background: #DA22FF;  /* fallback htmlFor old browsers */
-    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.cards {
+  border-radius: 2rem;
+  overflow: hidden;
+  color: aliceblue;
+  background: #da22ff; /* fallback htmlFor old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9733ee,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #9733ee,
+    #da22ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-.badge{
-    top: 10px;
-    left: 35px;
-    font-size: 17px;
-    max-width: fit-content;
+.badge {
+  top: 10px;
+  left: 35px;
+  font-size: 17px;
+  max-width: fit-content;
 }
 
 .img {
-    border-radius: 2rem 0 0 2rem;
-    width: 175px;
-    height: 175px;
-    border-radius: 55%;
-    margin: 20px;
-
+  border-radius: 2rem 0 0 2rem;
+  width: 175px;
+  height: 175px;
+  border-radius: 55%;
+  margin: 20px;
 }
-

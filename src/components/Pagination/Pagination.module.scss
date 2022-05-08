@@ -1,0 +1,20 @@
+.btn {
+  background-color: rgb(130, 6, 202);
+  border: none;
+}
+
+.pages {
+  background-color: whitesmoke;
+  color: rgb(130, 6, 202);
+  &:hover {
+    background-color: rgb(247, 74, 195);
+    color: whitesmoke;
+  }
+  border: none;
+}
+
+.active {
+  &:focus {
+    border-color: purple;
+  }
+}
